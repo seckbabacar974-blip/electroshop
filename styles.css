@@ -1,0 +1,1256 @@
+ *{
+    background-color: whitesmoke;
+    
+}
+
+.ES{
+    background-color: black;
+    width: 20px;
+    height: 25px;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.ES:hover{
+    transform: scale(1.1);
+}
+
+.slogan{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 16px;
+    
+}
+
+.Content_Logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.nav_menu{
+    text-decoration: none;
+    color: gray;
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: 0px 0 2px 0 rgb(192, 191, 191);
+    
+}
+
+.btn_0{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.S1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.title{
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.btn_1{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_2{
+    background-color: none;
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.S1-G{
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.Info_promo{
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn_3{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img_1{
+    width: 100%;
+height: 200px;
+border-radius: 15px;
+background-image: url(Cuisine.jfif);
+background-size: contain;
+}
+
+.infos{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   padding: 5px;
+   background-color: white;
+}
+
+.titre_p{
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    font-weight: bold;
+}
+
+.sous-titre{
+    color: grey;
+    font-weight: 500;
+    background-color: white;
+}
+
+.f_t{
+    background-color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.p_t{
+    color: gray;
+    font-weight: 500;
+    font-family: arial;
+    background-color: white;
+
+}
+
+.d_t{
+    color: gray;
+    font-weight: 500;
+    font-family: arial;
+    margin-left: 30px;
+}
+
+.h2{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.catégories{
+      width: 20%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.catégories:hover{
+    transform: scale(1.1);
+}
+
+.micro-ondes{
+    height: 100px;
+    background-image: url(micro-ondes.jfif);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.btn_4{
+background-color: gainsboro;
+border: none;
+border-radius: 10px;
+padding: 6px;
+margin-top: 10px;
+font-weight: 100;
+}
+
+.title_1{
+    font-family: arial;
+    font-size: 18px;
+    background-color: white;
+}
+
+.p_1{
+font-size: 14px;
+color: gray;
+font-weight: 500;
+background-color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.réfrigérateurs{
+    height: 100px;
+    background-image: url(Réfrigérateur.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.btn_5{
+background-color: gainsboro;
+border: none;
+border-radius: 10px;
+padding: 6px;
+margin-top: 10px;
+font-weight: 100;
+}
+
+.title_2{
+    font-family: arial;
+    font-size: 18px;
+    background-color: white;
+}
+
+.p_2{
+font-size: 14px;
+color: gray;
+font-weight: 500;
+background-color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lave-linge{
+    height: 100px;
+    background-image: url(lave-linge.jfif);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.btn_6{
+background-color: gainsboro;
+border: none;
+border-radius: 10px;
+padding: 6px;
+margin-top: 10px;
+font-weight: 100;
+}
+
+.title_3{
+    font-family: arial;
+    font-size: 18px;
+    background-color: white;
+}
+
+.p_3{
+font-size: 14px;
+color: gray;
+font-weight: 500;
+background-color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aspirateurs{
+height: 100px;
+    background-image: url(Robot-aspirateur.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.btn_7{
+background-color: gainsboro;
+border: none;
+border-radius: 10px;
+padding: 6px;
+margin-top: 10px;
+font-weight: 100;
+}
+
+.title_4{
+    font-family: arial;
+    font-size: 18px;
+    background-color: white;
+}
+
+.p_4{
+font-size: 14px;
+color: gray;
+font-weight: 500;
+background-color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.S2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.btn_8{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.h1{
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.produits{
+       width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.produits:hover{
+    transform: scale(1.1);
+}
+
+.S3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.Réfrigérateurs{
+    background-image: url(Réfrigérateur.jpg);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.Réfrigérateurs:hover{
+    transform: scale(1);
+}
+
+.prix{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.Machine{
+    background-image: url(lave-linge.jfif);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.Machine:hover{
+    transform: scale(1);
+}
+
+.Micro-ondes25{
+    background-image: url(micro-ondes.jfif);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.Micro-ondes25:hover{
+    transform: scale(1);
+}
+
+.Blender{
+    background-image: url(mixeur.jfif);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.Blender:hover{
+    transform: scale(1);
+}
+
+.aspirateur{
+    background-image: url(Robot-aspirateur.jpg);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.aspirateur:hover{
+    transform: scale(1);
+}
+
+.bouilloire{
+    background-image: url(Bouilloire.jfif);
+    background-size: cover;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.bouilloire:hover{
+    transform: scale(1);
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    font-size: 20px;
+    color: black;
+    background-color: gainsboro;
+}
+
+
+.div_4{
+       width: 30%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.S4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nos_infos{
+      width: 40%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn_9{
+     background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.message{
+      width: 40%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.nom{
+    width: 98%;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.numero{
+    width: 98%;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.btn_10{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.btn_10:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    color: black;
+}
+
+#msg{
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    block-size: 98px ;
+    width: 98%;
+}
+
+.cnct{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+.allez{
+     text-decoration: none;
+    color: black;
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   position: relative;
+   background-color: transparent;
+}
+
+.allez:hover{
+    transform: scale(1);
+    background-color: white;
+   
+}
+
+.aller:hover{
+    transform: scale(1);
+    background-color: white;
+    
+     color: black;
+}
+
+.btn_0:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_1:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_2:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_3:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_4:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_5:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_6:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_7:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_8:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+.btn_9:hover{
+    transform: scale(1);
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    color: black;
+}
+
+
+.aller{
+    text-decoration: none;
+    color: white;
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   position: relative;
+   background-color: transparent;
+}
+
+.cont{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+.prod{
+    
+       display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.cat{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c_1{
+     margin-left: 30px;
+margin-top: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.c_01{
+    font-size: 14px;
+color: gray;
+font-weight: 500;
+background-color: transparent;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pro1{
+     margin-left: 30px;
+margin-top: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ref{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.mac{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.mco{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.pied_de_page{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+   
+}
+
+.copy{
+    font-size: 18px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banniere1{
+    width: 98%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    
+    margin: 150px auto 30px;
+}
+
+
+.banniere2{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 150px auto 30px;
+}
+
+
+.banniere3{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 150px auto 30px;
+}
+
+
+.banniere4{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 150px auto 30px;
+}
+
+
+
+.banniere5{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 150px auto 30px;
+}
+
+
+
+.banniere6{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 150px auto 30px;
+}
+
+
+
+.banniere1_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.banniere1_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere1_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere1_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.banniere2_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.banniere2_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere2_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere2_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.banniere3_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.banniere3_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere3_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere3_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.banniere4_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.banniere4_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere4_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere4_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.banniere5_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.banniere5_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere5_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere5_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.banniere6_img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.banniere6_title{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere6_desc{
+    color: gray;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banniere6_price{
+    margin-left: 30px;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.lave1{
+    background-image:url(lave1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.lave2{
+    background-image:url(lave7.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.lave3{
+    background-image:url(lave3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.lave4{
+    background-image:url(lave4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.lave5{
+    background-image:url(lave5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.lave6{
+    background-image:url(lave6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo1{
+    background-image: url(frigo1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo2{
+    background-image: url(frigo2.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo3{
+    background-image: url(frigo3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo4{
+    background-image: url(frigo4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo5{
+    background-image: url(frigo5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.frigo6{
+    background-image: url(frigo6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender1{
+    background-image:url(blender1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender2{
+    background-image:url(blender2.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender3{
+    background-image:url(blender3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender4{
+    background-image:url(blender4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender5{
+    background-image:url(blender5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.blender6{
+    background-image:url(blender6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four1{
+    background-image: url(four1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four2{
+    background-image: url(four2.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four3{
+    background-image: url(four3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four4{
+    background-image: url(four4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four5{
+    background-image: url(four5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.four6{
+    background-image: url(four6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi1{
+    background-image: url(aspi1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi2{
+    background-image: url(aspi2.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi3{
+    background-image: url(aspi3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi4{
+    background-image: url(aspi4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi5{
+    background-image: url(aspi5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.aspi6{
+    background-image: url(aspi6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire1{
+    background-image: url(b1.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire2{
+    background-image: url(b2.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire3{
+    background-image: url(b3.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire4{
+    background-image: url(b4.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire5{
+    background-image: url(b5.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bouilloire6{
+    background-image: url(b6.jfif);
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
